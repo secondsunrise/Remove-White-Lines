@@ -9,6 +9,7 @@ for i in range(0, len(data)):
 # Filter out the blank strings ("") from the list
 data = filter(None, data)
 
+# Create a new file with the correct formatting
 with open("your_new_file_name", mode="w") as f:
     for element in data:
         f.write(email + "\n")
